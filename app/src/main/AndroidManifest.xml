@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.vikasojha.quizbee">
+    package="com.example.drazen.quiz">
 
     <application
         android:allowBackup="true"
@@ -17,14 +17,14 @@
         </activity>
         <activity android:name=".QuestionsActivity">
             <intent-filter>
-                <action android:name="com.example.vikasojha.quizbee.QuestionsActivity" />
+                <action android:name="com.example.drazen.quiz.QuestionsActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".DeveloperActivity">
             <intent-filter>
-                <action android:name="com.example.vikasojha.quizbee.DeveloperActivity" />
+                <action android:name="com.example.drazen.quiz.DeveloperActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

@@ -1,4 +1,4 @@
-package com.example.vikasojha.quizbee;
+package com.example.drazen.quiz;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -35,7 +35,7 @@ public class QuestionsActivity extends AppCompatActivity {
     String opt[] = {
                     "Davor Šuker","Eduardo Da Silva","Mario Mandžukić","Ivan Perišić",
                     "Na prvom mjestu.","Na drugom mjestu.","Na trecem mjestu.","Nije uopce nastupila.",
-                    "2003.","2002.","2001.","2003.",
+                    "2003.","2002.","2001.","2000.",
                     "Bixente Lizarazu","Lillian Thuram","Thierry Henry","Fabian Barthez",
                     "Australian Open","US Open","Wimbledon","Roland Garros",
                     "U Splitu.","U Rimu.","U Pragu.","U Zadru.",
@@ -94,7 +94,7 @@ public class QuestionsActivity extends AppCompatActivity {
 //                Toast.makeText(getApplicationContext(), ansText, Toast.LENGTH_SHORT).show();
                 if(ansText.equals(answers[flag])) {
                     correct++;
-                    Toast.makeText(getApplicationContext(), "Bravo!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Točno!", Toast.LENGTH_SHORT).show();
                     counter++;
                 }
                 else {

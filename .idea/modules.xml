@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sportski_kviz.iml" filepath="$PROJECT_DIR$/.idea/modules/Sportski_kviz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sportski_kviz.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sportski_kviz.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sportski_kviz.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sportski_kviz.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sportski_kviz.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sportski_kviz.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sportski_kviz.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sportski_kviz.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sportski-kviz.iml" filepath="$PROJECT_DIR$/.idea/modules/Sportski-kviz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sportski-kviz.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sportski-kviz.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sportski-kviz.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sportski-kviz.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sportski-kviz.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sportski-kviz.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sportski-kviz.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sportski-kviz.app.unitTest.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.example.vikasojha.quizbee;
+package com.example.drazen.quiz;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -25,11 +25,11 @@ public class ResultActivity extends AppCompatActivity {
         btnRestart = (Button) findViewById(R.id.btnRestart);
 
         StringBuffer sb = new StringBuffer();
-        sb.append("Točni odgovori: " + QuestionsActivity.correct + "\n");
+        sb.append("Broj točnih odgovora: " + QuestionsActivity.correct + "\n");
         StringBuffer sb2 = new StringBuffer();
-        sb2.append("Netočni odgovori: " + QuestionsActivity.wrong + "\n");
+        sb2.append("Broj netočnih odgovora: " + QuestionsActivity.wrong + "\n");
         StringBuffer sb3 = new StringBuffer();
-        sb3.append("Rezultat: " + QuestionsActivity.correct + "\n");
+        sb3.append("Vaš ukupni rezultat: " + QuestionsActivity.correct + "\n");
         tv.setText(sb);
         tv2.setText(sb2);
         tv3.setText(sb3);

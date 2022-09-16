@@ -1,8 +1,6 @@
-package com.example.vikasojha.quizbee;
+//package com.example.drazen.quiz;
 import android.graphics.Color;
-/**
- * Created by Sushant on 23-11-2016.
- */
+
 import java.util.Random;
 public class BackgroundColor {
     private String[] mColors = {
@@ -17,7 +15,8 @@ public class BackgroundColor {
             "#51b46d", // green
             "#e0ab18", // mustard
             "#637a91", // dark gray
-            "#f092b0", // pink
+           // "#f092b0", // pink
+            "#b9bec7",
             "#b7c0c7" // light gray}
     };
 public int getColor(){

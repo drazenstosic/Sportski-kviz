@@ -1,4 +1,4 @@
-package com.example.vikasojha.quizbee;
+package com.example.drazen.quiz;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

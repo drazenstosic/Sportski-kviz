@@ -7,17 +7,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.vikasojha.quizbee.QuestionsActivity">
+    tools:context="com.example.drazen.quiz.QuestionsActivity"
+    >
 
     <TextView
+        android:id="@+id/DispName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/DispName"
-        android:textColor="@color/accent_material_light"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -27,8 +27,6 @@
         android:id="@+id/answersgrp"
         android:clickable="true"
         android:layout_centerVertical="true">
-        <!--android:layout-->
-        <!--android:checkedButton="@+id/radioButton"-->
 
 
         <RadioButton
@@ -58,44 +56,45 @@
             android:layout_height="wrap_content"
             android:text="D"
             android:id="@+id/radioButton4"
-            android:checked="false" />
+            android:checked="false"
+            />
 
     </RadioGroup>
 
     <Button
+        android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Potvrdi odgovor"
-        android:id="@+id/button3"
-        android:layout_marginTop="27dp"
         android:layout_below="@+id/answersgrp"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:background="#FF5722"
-        android:textColor="#ffffff"/>
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="27dp"
+        android:background="#33d65f"
+        android:text="Potvrdi odgovor"
+        android:textColor="#ffffff" />
 
     <Button
+        android:id="@+id/buttonquit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Izlaz"
-        android:id="@+id/buttonquit"
-        android:layout_marginTop="20dp"
         android:layout_below="@+id/button3"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
         android:background="#01579B"
+        android:text="Izlaz"
         android:textColor="#ffffff" />
 
     <TextView
+        android:id="@+id/tvque"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Questions"
-        android:id="@+id/tvque"
-        android:layout_marginBottom="52dp"
         android:layout_above="@+id/answersgrp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginBottom="52dp"
+        android:text="Questions"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -107,16 +106,17 @@
         android:textSize="19dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"/>
+
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="24dp"
-        android:textAppearance="@color/abc_background_cache_hint_selector_material_dark"
-        android:id="@+id/textView4"
-        android:text="0"
-        android:textColor="#000000"
-        android:layout_alignParentBottom="true"
-        android:textAlignment="center"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAppearance="@color/abc_background_cache_hint_selector_material_dark"
+        android:textColor="#000000"
         android:textSize="19dp" />
 
     <TextView
